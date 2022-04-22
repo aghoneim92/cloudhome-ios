@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "DeviceManager.rpc&lt;&#x3c4;_0_0&gt;(_:_:):DeviceManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "String(decoding: data, as: UTF8.self)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

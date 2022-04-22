@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B3FDCE627FC8FDE00F2E2D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3FDCE527FC8FDE00F2E2D1 /* AppDelegate.swift */; };
+		0B3FDCE828003F0F00F2E2D1 /* devices.json in Resources */ = {isa = PBXBuildFile; fileRef = 0B3FDCE728003F0E00F2E2D1 /* devices.json */; };
+		0B3FDCEA280040AD00F2E2D1 /* ConfirmDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3FDCE9280040AD00F2E2D1 /* ConfirmDeviceView.swift */; };
+		0B3FDCEB280040AD00F2E2D1 /* ConfirmDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3FDCE9280040AD00F2E2D1 /* ConfirmDeviceView.swift */; };
+		0B3FDCEC280040AE00F2E2D1 /* ConfirmDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3FDCE9280040AD00F2E2D1 /* ConfirmDeviceView.swift */; };
+		0B3FDCEE2800414A00F2E2D1 /* DeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3FDCED2800414A00F2E2D1 /* DeviceManager.swift */; };
+		0B3FDCEF2800414A00F2E2D1 /* DeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3FDCED2800414A00F2E2D1 /* DeviceManager.swift */; };
+		0B3FDCF02800414A00F2E2D1 /* DeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3FDCED2800414A00F2E2D1 /* DeviceManager.swift */; };
+		0B3FDCF32800EBB900F2E2D1 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3FDCF22800EBB900F2E2D1 /* DatabaseManager.swift */; };
+		0B3FDCF42800EBB900F2E2D1 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3FDCF22800EBB900F2E2D1 /* DatabaseManager.swift */; };
+		0B3FDCF52800EBB900F2E2D1 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3FDCF22800EBB900F2E2D1 /* DatabaseManager.swift */; };
+		0B3FDCF72800EC7B00F2E2D1 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3FDCF62800EC7B00F2E2D1 /* AuthManager.swift */; };
+		0B3FDCF82800EC7B00F2E2D1 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3FDCF62800EC7B00F2E2D1 /* AuthManager.swift */; };
+		0B3FDCF92800EC7B00F2E2D1 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3FDCF62800EC7B00F2E2D1 /* AuthManager.swift */; };
+		0B3FDCFB2802158800F2E2D1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3FDCFA2802158800F2E2D1 /* HomeView.swift */; };
+		0B3FDCFC2802158800F2E2D1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3FDCFA2802158800F2E2D1 /* HomeView.swift */; };
+		0B3FDCFD2802158800F2E2D1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3FDCFA2802158800F2E2D1 /* HomeView.swift */; };
 		0B9861E927ECC414005DE718 /* cloudhomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9861E827ECC414005DE718 /* cloudhomeApp.swift */; };
 		0B9861EB27ECC414005DE718 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9861EA27ECC414005DE718 /* ContentView.swift */; };
 		0B9861ED27ECC416005DE718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B9861EC27ECC416005DE718 /* Assets.xcassets */; };
@@ -14,6 +31,37 @@
 		0B9861FA27ECC417005DE718 /* cloudhomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9861F927ECC417005DE718 /* cloudhomeTests.swift */; };
 		0B98620427ECC417005DE718 /* cloudhomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B98620327ECC417005DE718 /* cloudhomeUITests.swift */; };
 		0B98620627ECC417005DE718 /* cloudhomeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B98620527ECC417005DE718 /* cloudhomeUITestsLaunchTests.swift */; };
+		0BA1DD7F27F63CF40014FB82 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA1DD7E27F63CF40014FB82 /* ExternalAccessory.framework */; };
+		0BA1DD8127F640C60014FB82 /* SelectWiFiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA1DD8027F640C60014FB82 /* SelectWiFiView.swift */; };
+		0BA1DD8227F640C60014FB82 /* SelectWiFiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA1DD8027F640C60014FB82 /* SelectWiFiView.swift */; };
+		0BA1DD8327F640C60014FB82 /* SelectWiFiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA1DD8027F640C60014FB82 /* SelectWiFiView.swift */; };
+		0BA1DD8527F652990014FB82 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA1DD8427F652990014FB82 /* NetworkManager.swift */; };
+		0BA1DD8627F652990014FB82 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA1DD8427F652990014FB82 /* NetworkManager.swift */; };
+		0BA1DD8727F652990014FB82 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA1DD8427F652990014FB82 /* NetworkManager.swift */; };
+		0BA1DD8D27F65B7F0014FB82 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA1DD8C27F65B7F0014FB82 /* LocationManager.swift */; };
+		0BA1DD8E27F65B7F0014FB82 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA1DD8C27F65B7F0014FB82 /* LocationManager.swift */; };
+		0BA1DD8F27F65B7F0014FB82 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA1DD8C27F65B7F0014FB82 /* LocationManager.swift */; };
+		0BAA1E882807570600DD2FBD /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAA1E872807570600DD2FBD /* Device.swift */; };
+		0BAA1E8A2807591D00DD2FBD /* DevicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAA1E892807591D00DD2FBD /* DevicesView.swift */; };
+		0BAA1E8C28079F8E00DD2FBD /* SwitchAndSocketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAA1E8B28079F8E00DD2FBD /* SwitchAndSocketView.swift */; };
+		0BFBCEC927F79A0D00762E40 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BFBCEC827F79A0D00762E40 /* GoogleService-Info.plist */; };
+		0BFBCECA27F79A0D00762E40 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BFBCEC827F79A0D00762E40 /* GoogleService-Info.plist */; };
+		0BFBCECB27F79A0D00762E40 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BFBCEC827F79A0D00762E40 /* GoogleService-Info.plist */; };
+		0BFBCECE27F7E63400762E40 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 0BFBCECD27F7E63400762E40 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		0BFBCED027F7E63400762E40 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 0BFBCECF27F7E63400762E40 /* FirebaseAuth */; };
+		0BFBCED227F7E63400762E40 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 0BFBCED127F7E63400762E40 /* FirebaseCrashlytics */; };
+		0BFBCED427F7E63400762E40 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 0BFBCED327F7E63400762E40 /* FirebaseFirestore */; };
+		0BFBCED627F7E63400762E40 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 0BFBCED527F7E63400762E40 /* FirebaseFirestoreCombine-Community */; };
+		0BFBCED827F7E63400762E40 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 0BFBCED727F7E63400762E40 /* FirebaseFirestoreSwift-Beta */; };
+		0BFBCEDE27F8214300762E40 /* ScanDevicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFBCEDD27F8214300762E40 /* ScanDevicesView.swift */; };
+		0BFBCEDF27F8214300762E40 /* ScanDevicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFBCEDD27F8214300762E40 /* ScanDevicesView.swift */; };
+		0BFBCEE027F8214300762E40 /* ScanDevicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFBCEDD27F8214300762E40 /* ScanDevicesView.swift */; };
+		0BFBCEE227F8683900762E40 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFBCEE127F8683900762E40 /* LoginView.swift */; };
+		0BFBCEE327F8683900762E40 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFBCEE127F8683900762E40 /* LoginView.swift */; };
+		0BFBCEE427F8683900762E40 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFBCEE127F8683900762E40 /* LoginView.swift */; };
+		0BFBCEE627F886C800762E40 /* AuthInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFBCEE527F886C800762E40 /* AuthInfo.swift */; };
+		0BFBCEE727F886C800762E40 /* AuthInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFBCEE527F886C800762E40 /* AuthInfo.swift */; };
+		0BFBCEE827F886C800762E40 /* AuthInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFBCEE527F886C800762E40 /* AuthInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +82,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B3FDCE527FC8FDE00F2E2D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0B3FDCE728003F0E00F2E2D1 /* devices.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = devices.json; sourceTree = "<group>"; };
+		0B3FDCE9280040AD00F2E2D1 /* ConfirmDeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmDeviceView.swift; sourceTree = "<group>"; };
+		0B3FDCED2800414A00F2E2D1 /* DeviceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceManager.swift; sourceTree = "<group>"; };
+		0B3FDCF22800EBB900F2E2D1 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		0B3FDCF62800EC7B00F2E2D1 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		0B3FDCFA2802158800F2E2D1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		0B9861E527ECC414005DE718 /* cloudhome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cloudhome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B9861E827ECC414005DE718 /* cloudhomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cloudhomeApp.swift; sourceTree = "<group>"; };
 		0B9861EA27ECC414005DE718 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +99,19 @@
 		0B9861FF27ECC417005DE718 /* cloudhomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cloudhomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B98620327ECC417005DE718 /* cloudhomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cloudhomeUITests.swift; sourceTree = "<group>"; };
 		0B98620527ECC417005DE718 /* cloudhomeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cloudhomeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0BA1DD7C27F63CF40014FB82 /* cloudhome.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = cloudhome.entitlements; sourceTree = "<group>"; };
+		0BA1DD7E27F63CF40014FB82 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		0BA1DD8027F640C60014FB82 /* SelectWiFiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectWiFiView.swift; sourceTree = "<group>"; };
+		0BA1DD8427F652990014FB82 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		0BA1DD8C27F65B7F0014FB82 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		0BA1DD9027F65E610014FB82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0BAA1E872807570600DD2FBD /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		0BAA1E892807591D00DD2FBD /* DevicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesView.swift; sourceTree = "<group>"; };
+		0BAA1E8B28079F8E00DD2FBD /* SwitchAndSocketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchAndSocketView.swift; sourceTree = "<group>"; };
+		0BFBCEC827F79A0D00762E40 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0BFBCEDD27F8214300762E40 /* ScanDevicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanDevicesView.swift; sourceTree = "<group>"; };
+		0BFBCEE127F8683900762E40 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0BFBCEE527F886C800762E40 /* AuthInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +119,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BA1DD7F27F63CF40014FB82 /* ExternalAccessory.framework in Frameworks */,
+				0BFBCED227F7E63400762E40 /* FirebaseCrashlytics in Frameworks */,
+				0BFBCED827F7E63400762E40 /* FirebaseFirestoreSwift-Beta in Frameworks */,
+				0BFBCED027F7E63400762E40 /* FirebaseAuth in Frameworks */,
+				0BFBCED627F7E63400762E40 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				0BFBCED427F7E63400762E40 /* FirebaseFirestore in Frameworks */,
+				0BFBCECE27F7E63400762E40 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +146,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B3FDCF12800EB9200F2E2D1 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				0BA1DD8C27F65B7F0014FB82 /* LocationManager.swift */,
+				0BA1DD8427F652990014FB82 /* NetworkManager.swift */,
+				0B3FDCED2800414A00F2E2D1 /* DeviceManager.swift */,
+				0B3FDCF22800EBB900F2E2D1 /* DatabaseManager.swift */,
+				0B3FDCF62800EC7B00F2E2D1 /* AuthManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		0B3FDCFE2802158F00F2E2D1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0B9861EA27ECC414005DE718 /* ContentView.swift */,
+				0B3FDCFA2802158800F2E2D1 /* HomeView.swift */,
+				0BFBCEE127F8683900762E40 /* LoginView.swift */,
+				0BFBCEDD27F8214300762E40 /* ScanDevicesView.swift */,
+				0BA1DD8027F640C60014FB82 /* SelectWiFiView.swift */,
+				0B3FDCE9280040AD00F2E2D1 /* ConfirmDeviceView.swift */,
+				0BAA1E892807591D00DD2FBD /* DevicesView.swift */,
+				0BAA1E8B28079F8E00DD2FBD /* SwitchAndSocketView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		0B9861DC27ECC413005DE718 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +180,7 @@
 				0B9861F827ECC417005DE718 /* cloudhomeTests */,
 				0B98620227ECC417005DE718 /* cloudhomeUITests */,
 				0B9861E627ECC414005DE718 /* Products */,
+				0BA1DD7D27F63CF40014FB82 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,9 +197,17 @@
 		0B9861E727ECC414005DE718 /* cloudhome */ = {
 			isa = PBXGroup;
 			children = (
+				0BAA1E86280756F800DD2FBD /* Models */,
+				0B3FDCFE2802158F00F2E2D1 /* Views */,
+				0B3FDCF12800EB9200F2E2D1 /* Managers */,
+				0BA1DD9027F65E610014FB82 /* Info.plist */,
+				0BA1DD7C27F63CF40014FB82 /* cloudhome.entitlements */,
 				0B9861E827ECC414005DE718 /* cloudhomeApp.swift */,
-				0B9861EA27ECC414005DE718 /* ContentView.swift */,
+				0B3FDCE527FC8FDE00F2E2D1 /* AppDelegate.swift */,
+				0BFBCEE527F886C800762E40 /* AuthInfo.swift */,
+				0BFBCEC827F79A0D00762E40 /* GoogleService-Info.plist */,
 				0B9861EC27ECC416005DE718 /* Assets.xcassets */,
+				0B3FDCE728003F0E00F2E2D1 /* devices.json */,
 				0B9861EE27ECC416005DE718 /* Preview Content */,
 			);
 			path = cloudhome;
@@ -127,6 +238,22 @@
 			path = cloudhomeUITests;
 			sourceTree = "<group>";
 		};
+		0BA1DD7D27F63CF40014FB82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BA1DD7E27F63CF40014FB82 /* ExternalAccessory.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0BAA1E86280756F800DD2FBD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0BAA1E872807570600DD2FBD /* Device.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +270,14 @@
 			dependencies = (
 			);
 			name = cloudhome;
+			packageProductDependencies = (
+				0BFBCECD27F7E63400762E40 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				0BFBCECF27F7E63400762E40 /* FirebaseAuth */,
+				0BFBCED127F7E63400762E40 /* FirebaseCrashlytics */,
+				0BFBCED327F7E63400762E40 /* FirebaseFirestore */,
+				0BFBCED527F7E63400762E40 /* FirebaseFirestoreCombine-Community */,
+				0BFBCED727F7E63400762E40 /* FirebaseFirestoreSwift-Beta */,
+			);
 			productName = cloudhome;
 			productReference = 0B9861E527ECC414005DE718 /* cloudhome.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +350,9 @@
 				Base,
 			);
 			mainGroup = 0B9861DC27ECC413005DE718;
+			packageReferences = (
+				0BFBCECC27F7E63400762E40 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 0B9861E627ECC414005DE718 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,7 +370,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B9861F027ECC416005DE718 /* Preview Assets.xcassets in Resources */,
+				0BFBCEC927F79A0D00762E40 /* GoogleService-Info.plist in Resources */,
 				0B9861ED27ECC416005DE718 /* Assets.xcassets in Resources */,
+				0B3FDCE828003F0F00F2E2D1 /* devices.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +380,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BFBCECA27F79A0D00762E40 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +388,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BFBCECB27F79A0D00762E40 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +399,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BA1DD8527F652990014FB82 /* NetworkManager.swift in Sources */,
+				0B3FDCFB2802158800F2E2D1 /* HomeView.swift in Sources */,
+				0BFBCEE227F8683900762E40 /* LoginView.swift in Sources */,
 				0B9861EB27ECC414005DE718 /* ContentView.swift in Sources */,
+				0B3FDCF72800EC7B00F2E2D1 /* AuthManager.swift in Sources */,
+				0B3FDCEE2800414A00F2E2D1 /* DeviceManager.swift in Sources */,
+				0B3FDCE627FC8FDE00F2E2D1 /* AppDelegate.swift in Sources */,
+				0BA1DD8D27F65B7F0014FB82 /* LocationManager.swift in Sources */,
+				0BA1DD8127F640C60014FB82 /* SelectWiFiView.swift in Sources */,
+				0BAA1E882807570600DD2FBD /* Device.swift in Sources */,
+				0BAA1E8A2807591D00DD2FBD /* DevicesView.swift in Sources */,
 				0B9861E927ECC414005DE718 /* cloudhomeApp.swift in Sources */,
+				0B3FDCF32800EBB900F2E2D1 /* DatabaseManager.swift in Sources */,
+				0B3FDCEA280040AD00F2E2D1 /* ConfirmDeviceView.swift in Sources */,
+				0BFBCEDE27F8214300762E40 /* ScanDevicesView.swift in Sources */,
+				0BFBCEE627F886C800762E40 /* AuthInfo.swift in Sources */,
+				0BAA1E8C28079F8E00DD2FBD /* SwitchAndSocketView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +423,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BFBCEE327F8683900762E40 /* LoginView.swift in Sources */,
+				0BA1DD8E27F65B7F0014FB82 /* LocationManager.swift in Sources */,
+				0B3FDCF42800EBB900F2E2D1 /* DatabaseManager.swift in Sources */,
+				0BA1DD8627F652990014FB82 /* NetworkManager.swift in Sources */,
+				0B3FDCEB280040AD00F2E2D1 /* ConfirmDeviceView.swift in Sources */,
 				0B9861FA27ECC417005DE718 /* cloudhomeTests.swift in Sources */,
+				0BFBCEDF27F8214300762E40 /* ScanDevicesView.swift in Sources */,
+				0BA1DD8227F640C60014FB82 /* SelectWiFiView.swift in Sources */,
+				0B3FDCF82800EC7B00F2E2D1 /* AuthManager.swift in Sources */,
+				0B3FDCFC2802158800F2E2D1 /* HomeView.swift in Sources */,
+				0B3FDCEF2800414A00F2E2D1 /* DeviceManager.swift in Sources */,
+				0BFBCEE727F886C800762E40 /* AuthInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +442,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BA1DD8727F652990014FB82 /* NetworkManager.swift in Sources */,
+				0B3FDCF92800EC7B00F2E2D1 /* AuthManager.swift in Sources */,
+				0B3FDCFD2802158800F2E2D1 /* HomeView.swift in Sources */,
+				0B3FDCF52800EBB900F2E2D1 /* DatabaseManager.swift in Sources */,
+				0BFBCEE427F8683900762E40 /* LoginView.swift in Sources */,
 				0B98620427ECC417005DE718 /* cloudhomeUITests.swift in Sources */,
+				0B3FDCF02800414A00F2E2D1 /* DeviceManager.swift in Sources */,
+				0B3FDCEC280040AE00F2E2D1 /* ConfirmDeviceView.swift in Sources */,
+				0BA1DD8F27F65B7F0014FB82 /* LocationManager.swift in Sources */,
+				0BA1DD8327F640C60014FB82 /* SelectWiFiView.swift in Sources */,
 				0B98620627ECC417005DE718 /* cloudhomeUITestsLaunchTests.swift in Sources */,
+				0BFBCEE027F8214300762E40 /* ScanDevicesView.swift in Sources */,
+				0BFBCEE827F886C800762E40 /* AuthInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +524,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,7 +578,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -414,12 +593,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = cloudhome/cloudhome.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"cloudhome/Preview Content\"";
-				DEVELOPMENT_TEAM = 8748AQH3NQ;
+				DEVELOPMENT_TEAM = FZ6F33C7FX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = cloudhome/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -430,7 +611,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.ghoneim.cloudhome;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cloudhome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -443,12 +624,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = cloudhome/cloudhome.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"cloudhome/Preview Content\"";
-				DEVELOPMENT_TEAM = 8748AQH3NQ;
+				DEVELOPMENT_TEAM = FZ6F33C7FX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = cloudhome/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -459,7 +642,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.ghoneim.cloudhome;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cloudhome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -583,6 +766,50 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0BFBCECC27F7E63400762E40 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0BFBCECD27F7E63400762E40 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BFBCECC27F7E63400762E40 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		0BFBCECF27F7E63400762E40 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BFBCECC27F7E63400762E40 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		0BFBCED127F7E63400762E40 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BFBCECC27F7E63400762E40 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		0BFBCED327F7E63400762E40 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BFBCECC27F7E63400762E40 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		0BFBCED527F7E63400762E40 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BFBCECC27F7E63400762E40 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		0BFBCED727F7E63400762E40 /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BFBCECC27F7E63400762E40 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0B9861DD27ECC413005DE718 /* Project object */;
 }

@@ -1,0 +1,21 @@
+{
+    "0": {
+        "name": "Switch and Socket",
+        "description": "A device that controls a switch and a socket",
+        "config": {
+            "methods": [{
+                "name": "Switch.On",
+                "label": "Turn switch on",
+            }, {
+                "name": "Switch.Off",
+                "label": "Turn switch off"
+            }, {
+                "name": "Socket.On",
+                "label": "Turn socket on"
+            }, {
+                "name": "Socket.Off",
+                "label": "Turn socket off"
+            }]
+        }
+    }
+}
